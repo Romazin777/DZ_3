@@ -5,7 +5,7 @@ string numbCUB()
             int N = Convert.ToInt32(Console.ReadLine());
             int i=1;
             string res = string.Empty;
-            if (N < 1) res = "Нужно ввести число больше 1";
+            if (N < 1) res = "Нужно ввести число больше 1"
             while (i <= N)
             {
                 res = res + i*i*i +", ";
